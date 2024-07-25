@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICADOR DE RAÇA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body >
+    <header>
+        <h1>VERIFICADOR DE RAÇA</h1>
+
+    </header>
+    <section>
+        <div >
+          <p> ANO NASCIMENTO:
+                <input type="number" name="txtano" id="txtano" min="0">
+          </p>
+          <p>RAÇA:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc"> AUTOBOT</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">DECEPTICON</label>
+          </p>
+          <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+          </p>
+            
+            
+
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado !!!!
+            
+
+            
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; NorthyCorp</p>
+
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

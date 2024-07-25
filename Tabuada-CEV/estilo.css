@@ -1,0 +1,38 @@
+body{
+    background: #4444f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(36, 30, 30);
+    text-align: center;
+
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+#imagem {
+    width: 450px;
+    height: 400px;
+    border-radius: 200px;
+}
+div{
+    padding: 8px;
+}
+
+
+
